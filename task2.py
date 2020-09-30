@@ -15,8 +15,8 @@ outputs:
 Access granted
 Access denied
 """
-username=input("Enter username")
-password=input("Enter password")
+username=(input("Enter username")).strip()
+password=(input("Enter password")).strip()
 while username !="admin" or password !=("12345"):
     print("access denied")
     break 
