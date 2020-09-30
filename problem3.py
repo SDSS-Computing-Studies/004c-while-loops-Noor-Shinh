@@ -15,8 +15,8 @@ Example:
 """
 a=0
 b=1
-while (b<100):
+while (a<100):
+   b=(a+b)
    a=(a+b)
-   b=(b+a)
-   print(a,end=' ')
-   print(b,end=' ') 
+   print(b,end=' ')
+   print(a,end=' ') 
