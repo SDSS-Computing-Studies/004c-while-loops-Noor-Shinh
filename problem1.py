@@ -31,3 +31,5 @@ while username !="admin" or password !=("12345"):
         break
 if username =="admin" and password==("12345"):
     print("Access granted")
+    username=(input("Enter username")).strip()
+    password=(input("Enter password")).strip()
