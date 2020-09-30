@@ -29,5 +29,4 @@ while (a/2)!=math.floor(a/2):
     a=float(a)
 if (a/2)==math.floor(a/2):
     print("That is an even integer")
-    a=input(("Enter a number")).strip()
-    a=float(a)
+    
