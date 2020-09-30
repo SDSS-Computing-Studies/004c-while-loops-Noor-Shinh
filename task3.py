@@ -23,13 +23,11 @@ That is an even integer
 import math
 a=input(("Enter a number")).strip()
 a=float(a)
-b=(a/2)
-c=math.floor(b)
-while b!=c:
-    a=str(a)
+while (a/2)!=math.floor(a/2):
     print("That is not an even integer")
-    break
-while b==c:
-    a=str(a)
+    a=input(("Enter a number")).strip()
+    a=float(a)
+if (a/2)==math.floor(a/2):
     print("That is an even integer")
-    break 
+    a=input(("Enter a number")).strip()
+    a=float(a)
