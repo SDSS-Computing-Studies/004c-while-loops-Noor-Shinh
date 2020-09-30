@@ -21,6 +21,6 @@ a=int(a)
 b=a*12
 i=1 
 while b>=(a*i):
-    x=float(a*i)
+    x=int(a*i)
     print(x,end='')
     i=(i+1)
