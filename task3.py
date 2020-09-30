@@ -27,8 +27,8 @@ c=math.floor(b)
 while b!=c:
     a=str(a)
     print(a+" is not an even integer")
-    a=input("Enter a number")
+    break
 while b==c:
     a=str(a)
     print(a+" is an even integer")
-    exit(1)
+    break 
