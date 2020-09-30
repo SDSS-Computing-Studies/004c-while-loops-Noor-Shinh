@@ -20,6 +20,6 @@ password=input("Enter password")
 while "admin" in username and ("12345") in password:
     print("access denied")
     exit(1) 
-while "admin" in and ("12345") in password:
+while "admin" in username and ("12345") in password:
     print("Access granted")
     exit(1)
