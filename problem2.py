@@ -17,7 +17,7 @@ Enter a number: 4
 """
 import math 
 a=(input("Enter a number")).strip()
-a=float(a)
+a=int(a)
 b=a*12
 i=1 
 while b>=(a*i):
