@@ -20,7 +20,7 @@ That is an even integer
 
 """
 import math
-a=input("Enter a number")
+a=input(("Enter a number")).strip()
 a=float(a)
 b=(a/2)
 c=math.floor(b)
