@@ -23,7 +23,7 @@ username=input("Enter username")
 password=input("Enter password")
 while username !="admin" and password !=("12345"):
     print("access denied")
-    break 
+    exit(1)
 while username=="admin" and password==("12345"):
     print("Access granted")
-    break
+    exit(1)
