@@ -28,7 +28,9 @@ while username !="admin" or password !=("12345"):
     password=(input("Enter password")).strip()
     count=count+1
     if count>2:
-        print("Access denied")
         break 
 if username =="admin" and password==("12345"):
     print("Access granted")
+else:
+    print("Access denied")
+
