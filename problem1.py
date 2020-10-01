@@ -22,13 +22,12 @@ import math
 username=(input("Enter username")).strip()
 password=(input("Enter password")).strip()
 count=1
-while username !="admin" or password !=("12345"):
+while username !="admin" or password !=("12345") and count<=3:
     print("access denied")
     username=(input("Enter username")).strip()
     password=(input("Enter password")).strip()
     count=count+1
-    if count>3:
-        break
+    
 if username =="admin" and password==("12345"):
     print("Access granted")
     
