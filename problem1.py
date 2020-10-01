@@ -21,7 +21,7 @@ import time
 import math
 username=(input("Enter username")).strip()
 password=(input("Enter password")).strip()
-count=1
+count=0
 while username !="admin" or password !=("12345") and count<3:
     print("access denied")
     username=(input("Enter username")).strip()
